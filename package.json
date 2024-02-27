@@ -1,0 +1,46 @@
+{
+  "name": "react-vite-magic-import",
+  "version": "0.0.2",
+  "type": "module",
+  "description": "Allows to simply setup auto imports for react vite projects",
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.cjs"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "unbuild"
+  },
+  "engines": {
+    "node": ">=14.17.0"
+  },
+  "keywords": [
+    "vite",
+    "react",
+    "typescript",
+    "auto-import",
+    "import",
+    "magic-import"
+  ],
+  "author": "Daniel Fischnaller",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.11.20",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3",
+    "unbuild": "^2.0.0"
+  },
+  "dependencies": {
+    "consola": "^3.2.3",
+    "pkg-types": "^1.0.3",
+    "unimport": "^3.7.1"
+  }
+}
