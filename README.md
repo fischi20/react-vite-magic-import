@@ -24,7 +24,7 @@ import react from '@vitejs/plugin-react-swc'
 import {createReactUnimportPlugin} from 'react-vite-magic-import'
 
 export default defineConfig({
-  plugins: [react(), createReactUnimportPlugin()],
+  plugins: [react(), await createReactUnimportPlugin()],
 })
 ```
 
