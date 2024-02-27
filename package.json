@@ -1,6 +1,6 @@
 {
   "name": "react-vite-magic-import",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "type": "module",
   "description": "Allows to simply setup auto imports for react vite projects",
   "sideEffects": "false",
@@ -8,6 +8,10 @@
   "module": "./dist/index.mjs",
   "types": "./dist/index.d.ts",
   "typings": "./dist/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fischi20/react-vite-magic-import.git"
+  },
   "exports": {
     ".": {
       "types": "./dist/index.d.ts",

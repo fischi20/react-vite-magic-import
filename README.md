@@ -1,4 +1,6 @@
 # React Vite Magic Import
+[![npm version](https://badge.fury.io/js/react-vite-magic-import.svg)](https://badge.fury.io/js/react-vite-magic-import)
+
 This is a vite plugin for react that enables the automatic import
 of code using the unimport library.
 
