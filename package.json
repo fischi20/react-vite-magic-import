@@ -36,8 +36,8 @@
     "import",
     "magic-import"
   ],
-  "author": "Daniel Fischnaller",
-  "license": "ISC",
+  "author": "fischi20",
+  "license": "MIT",
   "devDependencies": {
     "@types/node": "^20.11.20",
     "ts-node": "^10.9.2",
